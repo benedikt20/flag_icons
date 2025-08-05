@@ -36,7 +36,7 @@ name_changes = {
 
 # Directories
 FLAG_DIR = "data/128x96" # Standard flag directory
-ICON_PATH = "data/ship.png" # Icon image to use for the flags
+ICON_PATH = "data/icon.png" # Icon image to use for the flags
 OUTPUT_DIR = "flag_icons" # Output directory
 
 # Create output directory
