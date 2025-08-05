@@ -46,7 +46,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 ship = mpimg.imread(ICON_PATH)
 if ship.dtype == np.uint8:
     ship = ship.astype(float) / 255.0
-ship = np.rot90(ship, k=-1)
+#ship = np.rot90(ship, k=-1)  # Rotate icon 90 degrees 
 ship_h, ship_w = ship.shape[:2]
 
 # Mask for black areas
@@ -89,7 +89,7 @@ for flag_file in flag_files:
             result[:, :, i] = np.where(mask, flag_resized[:, :, i], result[:, :, i])
         
         # Rotate back 90 degrees counter-clockwise
-        result = np.rot90(result, k=1)
+        #result = np.rot90(result, k=1)
         
         # Save output
         out_path = os.path.join(OUTPUT_DIR, f"{alpha_2}.png")
