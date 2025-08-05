@@ -9,4 +9,4 @@ Input flag:
 ![Alt text](https://github.com/benedikt20/flag_icons/blob/main/data/128x96/is.png)  
 
 Output flag icon:
-![Alt text](https://github.com/benedikt20/flag_icons/blob/main/flag_icons/IS.png)  
+![Alt text](https://github.com/benedikt20/flag_icons/blob/main/flag_icons/IS.png)   
